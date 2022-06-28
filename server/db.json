@@ -1,27 +1,17 @@
 {
   "anuncios": [
     {
-      "id": 1656386800693,
-      "Titulo": "Audi TT 2.0 LT",
-      "Tipo": "Venta",
-      "Descripcion": "Tiene todos los papeles. Excelente estado.",
-      "Precio": 7000000,
-      "Puertas": 3,
-      "Kilometros": 12500,
-      "Potencia": 480
-    },
-    {
-      "id": 1656386800693,
+      "id": 1,
       "Titulo": "Volkswagen Vento 1.8",
       "Tipo": "Venta",
-      "Descripcion": "Detalles mínimos en el capó. Service entero hecho hace 1 mes.",
-      "Precio": 2300000,
-      "Puertas": 5,
-      "Kilometros": 80500,
-      "Potencia": 350
+      "Descripcion": "Detalles mínimos en el capó. Service entero hecho hace 1 mes. Sin multas.",
+      "Precio": "2300000",
+      "Puertas": "5",
+      "Kilometros": "80500",
+      "Potencia": "350"
     },
     {
-      "id": 1656386800693,
+      "id": 2,
       "Titulo": "Porsche Carrera",
       "Tipo": "Alquiler",
       "Descripcion": "Se alquila al minimo de 3 dias y maximo de 1 mes. (El valor es por dia).",
@@ -31,7 +21,7 @@
       "Potencia": 500
     },
     {
-      "id": 1656386800693,
+      "id": 3,
       "Titulo": "Ferrari Enzo",
       "Tipo": "Venta",
       "Descripcion": "Ferrari 0km. Roja. La que siempre soñaste.",
@@ -41,14 +31,24 @@
       "Potencia": 850
     },
     {
-      "id": 1656386800693,
+      "id": 4,
       "Titulo": "Volkswagen Scirocco",
       "Tipo": "Venta",
-      "Descripcion": "Excelente estado. Llama al 4282-4282 para contactarme y probarlo.",
-      "Precio": 5500000,
+      "Descripcion": "Excelente estado. Llama al 4282-4282 para contactarme y probarlo. No lo dudes.",
+      "Precio": "5500000",
+      "Puertas": "3",
+      "Kilometros": "85000",
+      "Potencia": "450"
+    },
+    {
+      "id": 5,
+      "Titulo": "Ford Mustang GTI",
+      "Tipo": "Alquiler",
+      "Descripcion": "Alquiler solo por mes.",
+      "Precio": 80000,
       "Puertas": 3,
-      "Kilometros": 85000,
-      "Potencia": 450
+      "Kilometros": 7000,
+      "Potencia": 380
     }
   ]
 }
