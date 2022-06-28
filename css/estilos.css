@@ -289,10 +289,16 @@ p
 
 
 /* ---------------------------- SECCION 3 - ESTILO DE LA TABLA ------------------------------------------- */
+#labelForm-spinner
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
 #loader
 {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background-color: rgb(0, 0, 0);
     display: flex;
     margin-top: 30px;
