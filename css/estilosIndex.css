@@ -1,0 +1,261 @@
+/* ---------------------------- SECCION 4 - ESTILO DE LA PAGINA INDEX ------------------------------------------- */
+/* ------------------------------------- SECCION 1 - ESTILO DEL COMIENZO DE PAGINA ADMINISTRACION -----------------------------*/
+
+* 
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+body 
+{
+    padding: 190px 20px 0;
+    background-image: url(".././assets/wallpaperAuto.jpg");
+}
+
+.header 
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    height: 80px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav-header
+{
+    display: flex;
+    justify-content: center;
+    max-width: 992px;
+    margin: 0 auto;
+}
+  
+.nav-link 
+{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link-header 
+{
+    margin-top: -10px;
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+  
+.nav-menu 
+{
+    display: flex;
+    margin-left: 400px;
+    list-style: none;
+}
+
+.nav-menu-item 
+{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+@media (max-width: 870px) 
+{
+    .nav-menu 
+    {
+        margin-left: 100px;
+    }
+}
+
+.nav-menu-link 
+{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover
+{
+    background-color: rgb(105, 104, 104);
+    transition: 0.5s;
+}
+  
+/* MOBILE */
+@media (max-width: 1050px) 
+{
+    body
+    {
+        padding-top: 70px;
+        align-items: center;
+    }
+
+    .nav-menu 
+    {
+        margin-top: -10px;
+    }
+
+    .nav-link-header 
+    {
+        margin-top: -20px;
+    }
+
+    .header 
+    {
+        height: 60px;
+    }
+
+    .logoPrincipalImg
+    {
+        margin-top: 5px;
+    }
+
+    .footer 
+    {
+        height: 10px;
+        width: 1px;
+        visibility: hidden;
+    }
+
+    .nav-menu-footer 
+    {
+        height: -10px;
+        width: 1px;
+        visibility: hidden;
+    }
+}
+
+.footer 
+{
+    border-radius: 2vw;
+    margin-top: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    height: 80px;
+    width: 98%;
+    /* position: fixed;
+    display: flex; */
+    /* bottom: 0; */
+    /* left: 0; */
+}
+
+.nav-menu-footer
+{
+    display: flex;
+    margin-left: -150px;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.nav-footer
+{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    max-width: 992px;
+    /* margin: 0 auto; */
+    position: absolute;
+}
+
+.logoPrincipalImg
+{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: -20px;
+    position: absolute;
+}
+
+#parrafo-despedida
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1vw;
+
+    text-align: center;
+    width: 100%;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    margin-top: 3px;
+    background-color: rgb(221, 213, 213);
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+/*************************************************/
+#divSpinner
+{
+    font-size: 30px;
+    margin-top: 35px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-wallpaper-anuncios
+{
+    /* visibility: hidden; */
+    height: 100%;
+    width: 99%;
+    border-radius: 1vw;
+    position: fixed;
+    padding-bottom: 100px;
+}
+
+#wallpaper-anuncios
+{
+    /* visibility: hidden; */
+    height: 100%;
+    width: 100%;
+    border-radius: 1vw;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.anuncioDisponible
+{
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 2vw;
+    position: relative;
+}
+
+td, #tablaAnuncios    
+{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+}
+
+tr:hover
+{
+    background-color: rgb(211, 190, 190);
+    transition: 2s;
+    padding: 1rem;
+    color: red;
+}
+
+#tablaAnuncios
+{
+    margin-top: 25px;
+    margin-left: 500px;
+    width: 30px;
+    height: 40px;
+}
+
+#loader
+{
+    width: 7rem;
+    height: 7rem;
+    margin-left: -10px;
+}
+
+.label-loader
+{
+    margin-top: 200px;
+    margin-left: 350px;
+    font-size: 40px;
+}

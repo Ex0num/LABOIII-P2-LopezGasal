@@ -1,0 +1,508 @@
+/* ------------------------------------- SECCION 1 - ESTILO DEL COMIENZO DE PAGINA ADMINISTRACION -----------------------------*/
+
+* 
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+body 
+{
+    padding: 90px 20px 0;
+}
+
+.header 
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav-header
+{
+    display: flex;
+    justify-content: center;
+    max-width: 992px;
+    margin: 0 auto;
+}
+  
+.nav-link 
+{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link-header 
+{
+    margin-top: -10px;
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+  
+.nav-menu 
+{
+    display: flex;
+    margin-left: 400px;
+    list-style: none;
+}
+
+.nav-menu-item 
+{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+@media (max-width: 870px) 
+{
+    .nav-menu 
+    {
+        margin-left: 100px;
+    }
+}
+
+.nav-menu-link 
+{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav-menu-link:hover
+{
+    background-color: rgb(105, 104, 104);
+    transition: 0.5s;
+}
+  
+/* MOBILE */
+@media (max-width: 668px) 
+{
+    body
+    {
+        padding-top: 70px;
+        align-items: center;
+    }
+
+    .nav-menu 
+    {
+        margin-top: -10px;
+    }
+
+    .nav-link-header 
+    {
+        margin-top: -20px;
+    }
+
+    .header 
+    {
+        height: 60px;
+    }
+
+    .logoPrincipalImg
+    {
+        margin-top: 5px;
+    }
+
+    .footer 
+    {
+        height: 10px;
+        width: 1px;
+        visibility: hidden;
+    }
+
+    .nav-menu-footer 
+    {
+        height: -10px;
+        width: 1px;
+        visibility: hidden;
+    }
+}
+
+.footer 
+{
+    border-radius: 2vw;
+    margin-top: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    /* bottom: 0; */
+    /* left: 0; */
+}
+
+.nav-menu-footer
+{
+    display: flex;
+    margin-left: -180px;
+    list-style: none;
+}
+
+.nav-footer
+{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    max-width: 992px;
+    /* margin: 0 auto; */
+}
+
+.logoPrincipalImg
+{
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+    margin-left: -20px;
+    position: fixed;
+}
+
+/*************************************************/
+
+#parrafo-despedida
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 1vw;
+}
+
+body
+{
+    text-align: center;
+    background-color: rgb(233, 227, 227);
+}
+
+/* ------------------- SECCION 2 - ESTILO DEL FORMULARIO -------------------------------------*/
+.form-container
+{
+    width: 80%;
+    margin-left: 135px;
+    margin-top: 30px;
+}
+
+.fieldset-form
+{
+    border-color: black;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.fieldset2-form
+{
+    border-color: black;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.tituloFieldset-form
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.labelForm
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#labelAlquilerRadioButton
+{
+    margin-left: 10px;
+    
+}
+
+#labelVentaRadioButton
+{
+    margin-left: 10px;
+}
+
+.imagenForm
+{
+    height: 1.3vw;
+    width: 1.3vw;
+    margin-right: 2vw;margin-top: 10px;
+}
+
+p
+{
+    width: 100%;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    margin-top: 3px;
+    background-color: rgb(221, 213, 213);
+    border-radius: 10px;
+}
+
+.infoBox
+{
+    border-radius: 4px;
+    width: 500px;
+    text-align: center;
+    height: 27px;
+    margin-bottom: 8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.multipleChoice
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.infoBoxDesc
+{
+    height: 80px;
+    min-height: 80px;
+    max-height: 80px;
+
+    width: 500px;
+    min-width: 500px;
+    max-width: 500px;
+
+    border-radius: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    border-width: 2px;
+    border-color: black;
+}
+
+.BtnGuardar
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 270px;
+    height: 25px;
+    text-align-last: center;
+    font-size: 15px;  
+    border-color: black;
+    border-width: 0.5px;
+    border-radius: 5px;
+    margin-top: 1px; 
+    margin-bottom: 10px;
+}
+
+
+/* ---------------------------- SECCION 3 - ESTILO DE LA TABLA ------------------------------------------- */
+#loader
+{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: 30px;
+    margin-left: 750px;
+}
+
+.fieldset-tabla
+{
+    border-color: black;
+    border-radius: 8px;
+    width: 80%;
+
+    margin-top: 25px;
+    margin-left: 135px;
+}
+
+.tituloFieldset-tabla
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fieldset-botones-tabla
+{
+    border-color: black;
+}
+
+.container-checkbox-campos-tabla
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(221, 213, 213);
+    border-radius: 10px;
+    padding-bottom: 5px;
+    margin-top: 2px; 
+    padding-top: 4px;
+    padding-bottom: 4px;  
+}
+
+@media (max-width: 830px)
+{
+    .container-checkbox-campos-tabla
+    {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .body
+    {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.checkbox-table
+{
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-right: 5px;
+}
+
+.div-botones-tabla
+{
+    background-color: rgb(221, 213, 213);
+    border-radius: 10px;
+    padding-bottom: 5px;
+    margin-top: 4px;
+}
+
+.BtnEliminar
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 160px;
+    height: 25px;
+    text-align-last: center;
+    font-size: 15px;  
+    border-color: black;
+    border-width: 0.5px;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.BtnCancelar
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 160px;
+    height: 25px;
+    text-align-last: center;
+    font-size: 15px;  
+    border-color: black;
+    border-width: 0.5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.BtnModificar
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 160px;
+    height: 25px;
+    text-align-last: center;
+    font-size: 15px;  
+    border-color: black;
+    border-width: 0.5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+/**/
+.container-filtrador
+{
+    background-color: rgb(221, 213, 213);
+    border-radius: 10px;
+    padding-bottom: 5px;
+    margin-top: 4px;
+}
+
+#combobox-campos-filtrador
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 160px;
+    height: 25px;
+    text-align-last: center;
+    font-size: 15px;  
+    border-color: black;
+    border-width: 0.5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+#info-filtrada
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 160px;
+    height: 24px;
+    text-align-last: center;
+    font-size: 15px;  
+    border-color: black;
+    border-width: 0.5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+.BtnFiltrar
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100px;
+    height: 25px;
+    text-align-last: center;
+    font-size: 15px;  
+    border-color: black;
+    border-width: 0.5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+
+table, tr, td    
+{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 30px;
+    text-align: center;
+}
+
+th
+{
+    border: 1px solid white;
+    padding: 15px;
+}
+
+table
+{
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    width: 98%;
+    max-width: 100%;
+    margin-left: 11px;
+}
+
+tr:hover
+{
+    background-color: rgb(211, 190, 190);
+}
+
+#loader
+{
+    width: 7rem;
+    height: 7rem;
+    margin-left: -10px;
+
+}
+
+#divSpinner
+{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
