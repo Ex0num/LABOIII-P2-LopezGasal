@@ -250,11 +250,12 @@ tr:hover
 {
     width: 7rem;
     height: 7rem;
-    margin-left: -10px;
+    margin-left: -5px;
 }
 
 .label-loader
 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 200px;
     margin-left: 350px;
     font-size: 40px;

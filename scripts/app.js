@@ -121,7 +121,7 @@ botonEliminar.addEventListener("click", (e) =>
         {
             if (xhr.status >= 200 && xhr.status < 300) 
             {
-                alert("Eliminacion salio bien");     
+                alert("El anuncio fue eliminado correctamente.");     
             } 
             else 
             {
@@ -131,7 +131,7 @@ botonEliminar.addEventListener("click", (e) =>
         }
     });
 
-    console.log('A borrar:' + idFilaClickeada);
+    console.log('ID a borrar:' + idFilaClickeada);
     xhr.open("DELETE", url + "/" + idFilaClickeada, true);
     console.log('BORRANDO DATA-SV');
     xhr.setRequestHeader('Content-type','application/json;charset=utf8');
@@ -160,7 +160,7 @@ botonModificar.addEventListener("click", (e) =>
                 //Si encuentro el elemento que quiero eliminar (coincidente con el ID)
                 if (dataObtenida.id == idFilaClickeada) 
                 {
-                    modificarAnuncio(dataObtenida).then(() => {alert("Anuncio modificado")}).catch(() => {alert("Error en la modificacion")});
+                    modificarAnuncio(dataObtenida).then(() => {alert("El anuncio fue modificado correctamente.")}).catch(() => {alert("Hubo un error al intentar modificar un anuncio.")});
 
                     //Dejo de tener en cuenta ese objeto ya modificado.
                     if (flagFilaSeleccionada == true)
